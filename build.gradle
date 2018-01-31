@@ -1,0 +1,15 @@
+# M2
+defaultTasks 'jar'
+
+apply plugin: 'java'
+
+dependencies {
+	_____________
+}
+
+jar { 
+	manifest {
+		attributes("<attribute>": "______", 
+        		   "<attribute>": "_______")
+	}
+}
