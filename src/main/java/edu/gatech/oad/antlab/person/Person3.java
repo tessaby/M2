@@ -44,7 +44,7 @@ public class Person3 {
 	private String calc(String input) {
 	  //Person 3 put your implementation here
 	  StringBuilder reversed = new StringBuilder(input.length());
-	  for (int i = 0; i < input.length(); i++) {
+	  for (int i = input.length() - 1; i >= 0; i--) {
 	      reversed.append(input.charAt(i));
 	  }
 	  return reversed.toString();
